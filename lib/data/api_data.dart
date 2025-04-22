@@ -3,7 +3,7 @@
 import 'package:permission_handler/permission_handler.dart';
 import 'package:telephony/telephony.dart';
 
-const String baseUrl = 'http://192.168.1.21:8090/api';
+const String baseUrl = 'https://city-link.co.codiantsolutions.com/api';
 
 final regexemail = RegExp(r'^\d+$');
 final regexpassword =

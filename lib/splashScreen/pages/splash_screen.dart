@@ -51,8 +51,8 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Color.fromARGB(255, 255, 255, 255),
       body: Center(
         child: Image(
-          image: NetworkImage(
-              "https://t4.ftcdn.net/jpg/05/13/32/11/360_F_513321187_ixrphuz3kv5U43Is5t4b478YlocNrVo1.jpg"),
+          image: AssetImage(
+              "assets/images/logo.jpg"),
           height: 250,
           width: 250,
         ),

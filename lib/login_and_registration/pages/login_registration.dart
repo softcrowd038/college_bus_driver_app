@@ -152,12 +152,12 @@ class _LoginPageState extends State<LoginPage> {
                             if (value == null || value.isEmpty) {
                               return "Enter the Password first!";
                             }
-                            if (value.length < 8) {
-                              return "Password is too short, Enter up to 8 digits!";
-                            }
-                            if (!regexpassword.hasMatch(value)) {
-                              return "Use Alphabets(capital and small), symbols and numbers in the password";
-                            }
+                            // if (value.length < 8) {
+                            //   return "Password is too short, Enter up to 8 digits!";
+                            // }
+                            // if (!regexpassword.hasMatch(value)) {
+                            //   return "Use Alphabets(capital and small), symbols and numbers in the password";
+                            // }
                             return null;
                           },
                         ),
